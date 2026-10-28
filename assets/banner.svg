@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Hüseyin · Yazılım, Tasarım ve Sunucu">
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1f3a2b" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="80%" cy="40%" r="55%"><stop offset="0" stop-color="#3fae77" stop-opacity=".28"/><stop offset="1" stop-color="#3fae77" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#08140f" stop-opacity=".2"/><stop offset=".55" stop-color="#08140f" stop-opacity="0"/></linearGradient>
+    <clipPath id="r"><rect width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .t{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .m{font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace}
+    .role{font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:20px;fill:#b9e3c6;opacity:0}
+    .r0{animation:show0 16s infinite} @keyframes show0{0%,0.00%{opacity:0;transform:translateY(8px)} 2.00%,22.00%{opacity:1;transform:none} 24.00%,100%{opacity:0;transform:translateY(-6px)}} .r1{animation:show1 16s infinite} @keyframes show1{0%,25.00%{opacity:0;transform:translateY(8px)} 27.00%,47.00%{opacity:1;transform:none} 49.00%,100%{opacity:0;transform:translateY(-6px)}} .r2{animation:show2 16s infinite} @keyframes show2{0%,50.00%{opacity:0;transform:translateY(8px)} 52.00%,72.00%{opacity:1;transform:none} 74.00%,100%{opacity:0;transform:translateY(-6px)}} .r3{animation:show3 16s infinite} @keyframes show3{0%,75.00%{opacity:0;transform:translateY(8px)} 77.00%,97.00%{opacity:1;transform:none} 99.00%,100%{opacity:0;transform:translateY(-6px)}}
+    .dot{animation:p 2s ease-out infinite;transform-origin:76px 58px} @keyframes p{0%{opacity:1}70%{opacity:.25}100%{opacity:1}}
+    
+    .caret{animation:c 1s steps(1) infinite} @keyframes c{50%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important} .r0{opacity:1}}
+  </style>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="300" fill="#08140f"/>
+    <rect width="1200" height="300" fill="url(#g)" opacity=".7"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#fade)"/>
+    <rect x="48" y="40" width="250" height="36" rx="18" fill="#0f2219" stroke="#1f3a2b"/>
+    <circle class="dot" cx="70" cy="58" r="5" fill="#3fae77"/>
+    <text class="m" x="86" y="63" font-size="15" fill="#8fa99a">Yeni projelere açığım</text>
+    <text class="t" x="60" y="152" font-size="72" font-weight="800" fill="#e6efe8" letter-spacing="-2">Merhaba, ben <tspan fill="#5cc993">Hüseyin</tspan>.</text>
+    <path d="M520 166 C 600 154, 700 154, 812 162" stroke="#3fae77" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <text class="m" x="60" y="236" font-size="20" fill="#5d7a69">//</text>
+    <text class="role r0" x="92" y="236">web ve Lua ile uygulama geliştiriyorum</text><text class="role r1" x="92" y="236">çağrı merkezi ve helpdesk kuruyorum</text><text class="role r2" x="92" y="236">sunucu taşıyıp güvenliğini sağlıyorum</text><text class="role r3" x="92" y="236">logo ve arayüz tasarlıyorum</text>
+    <text class="m" x="60" y="272" font-size="15" fill="#5d7a69">Yazılım · Tasarım · Sunucu &amp; Çağrı Merkezi  —  dev.huso.com.tr</text>
+    <g transform="translate(1010 150)">
+      <circle r="118" fill="none" stroke="#1f3a2b" stroke-dasharray="4 6"/>
+      <circle r="84" fill="none" stroke="#2b4d3a"/>
+      <circle r="44" fill="#142c20" stroke="#3fae77" stroke-opacity=".5"/>
+      <path d="M-14 -10 -24 0 -14 10M14 -10 24 0 14 10M5 -16 -5 16" fill="none" stroke="#5cc993" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g class="orbit">
+        <g transform="translate(0 -84)"><circle r="20" fill="#0f2219" stroke="#2b4d3a"/><path d="M-4 -8h8v9a4 4 0 0 1-8 0zM-8 -1a8 8 0 0 0 16 0M0 7v4" fill="none" stroke="#b9e3c6" stroke-width="2" stroke-linecap="round"/></g>
+        <g transform="translate(73 42)"><circle r="20" fill="#0f2219" stroke="#2b4d3a"/><path d="M0 -10l-8 3v5c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10v-5zM-3.5 0l2.5 2.5 5-5" fill="none" stroke="#e7c873" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <g transform="translate(-73 42)"><circle r="20" fill="#0f2219" stroke="#2b4d3a"/><path d="M-8 3v-2a8 8 0 0 1 16 0v2M-9 2h3v6h-3zM6 2h3v6h-3z" fill="none" stroke="#5cc993" stroke-width="2" stroke-linejoin="round"/></g>
+      </g>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="299" rx="22" fill="none" stroke="#1f3a2b"/>
+  </g>
+</svg>
