@@ -92,7 +92,6 @@ Aklında bir proje, yarım kalmış bir iş ya da taşınması gereken bir sunuc
 
 - 🌐 **Site:** [dev.huso.com.tr](https://dev.huso.com.tr)
 - ✉️ **E-posta:** [info@huso.com.tr](mailto:info@huso.com.tr)
-- 💬 Sitemde sağ alttaki **Mini Hüseyin AI**'a da soru sorabilirsin
 
 Genelde aynı gün dönüş yaparım.
 
